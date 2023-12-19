@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/rigester.css" />
+
+    <!-- box icon -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Philosopher&family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ----------------------------------------------------------- -->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main-box">
+        <h1>Register</h1>
+        <form action="">
+          <!-- username  -->
+          <div class="input-box">
+            <span class="icon"><i class="bx bx-user"></i></span>
+            <input type="Username" required />
+            <label>Username</label>
+          </div>
+
+          <!-- Password -->
+          <div class="input-box">
+            <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+            <input type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+            <input type="password" required />
+            <label> Confirm Password</label>
+          </div>
+
+          <!-- remmber me and forg pass -->
+          <div class="check">
+            <label><input type="checkbox" />Remember me</label>
+            <a href="#">Forget Password</a>
+          </div>
+
+          <!-- button for login  -->
+          <button type="submit" class="btn">Register</button>
+
+          <!-- Register -->
+          <div class="register">
+            <p>
+              Do you have an account?
+              <a href="/login.html" class="register-link"> Sign In</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
